@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@media only screen and (min-width: 375px) and (max-width: 600px) {
+  body {
+    background-color: #45a3fa;
+  }
+
+  .wrap {
+    flex-basis: 100%;
+    height: 50px;
+    margin-bottom: 0.5rem;
+  }
+
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  @media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
+    }
+
+    div {
+      flex-basis: 33%;
+    }
+  }
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.searchTerm {
+  width: 100%;
+  border: 3px solid #d9d9d9;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #d9d9d9;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #d9d9d9;
+  background: #d9d9d9;
+  text-align: center;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.adicionar {
+  border-radius: 50px;
+  border: 1px solid black;
+  background-color: #d9d9d9;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d9d9d9;
+  border-radius: 5px 5px 5px 5px;
+  height: 70%;
+  align-content: center;
+}
+
+.divAcessivel {
+  width: 110%;
+  height: 50%;
+  text-align: center;
+}
+
+.editing {
+  display: contents;
+}
